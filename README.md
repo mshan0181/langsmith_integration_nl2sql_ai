@@ -115,7 +115,7 @@ agentic_ai_nltosql/
 Installation & Running
 ----------------------------------------------------
 1. Clone the repo
-git clone https://github.com/<your-username>/agentic_ai_nltosql.git
+git clone https://github.com/mshan0181/langsmith_integration_nl2sql_ai.git
 cd agentic_ai_nltosql
 
 2. Fill .env file
