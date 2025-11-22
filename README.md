@@ -119,7 +119,6 @@ agentic_ai_nltosql/
 
 │     ├── mysql_mcp_server.py
 
-│     ├── *_WORKING (backup files)
 
 Installation & Running
 ----------------------------------------------------
