@@ -102,14 +102,23 @@ LangSmith (Tracing/Monitoring)
 Folder Structure
 ----------------------------------------------------
 agentic_ai_nltosql/
+
 │── Dockerfile
+
 │── docker-compose.yml
+
 │── requirements.txt
+
 │── README.md
+
 │── app/
+
 │     ├── gradio_agentic_ui.py
+
 │     ├── langgraph_schema_graph.py
+
 │     ├── mysql_mcp_server.py
+
 │     ├── *_WORKING (backup files)
 
 Installation & Running
