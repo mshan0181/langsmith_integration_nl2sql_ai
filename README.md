@@ -1,5 +1,5 @@
 Agentic AI — Natural Language to SQL (NL → SQL)
-##################################################
+----------------------------------------------------
 Schema-Aware | Gemini LLM | LangGraph | MySQL MCP | LangSmith Observability | Dockerized Microservice
 
 This project demonstrates a production-ready Agentic AI system that converts natural language queries into SQL commands, validates them using database schema awareness, and executes them safely through a MySQL MCP (Model Context Protocol) server — with full observability powered by LangSmith.
@@ -19,7 +19,7 @@ It is built as a containerized microservice featuring:
 
  
  Features
- ########
+----------------------------------------------------
  1. Natural Language → SQL Conversion
 -------------------------------------
 
@@ -86,7 +86,7 @@ MySQL MCP server
 Env variable-based configuration
 
 Architecture
-###################
+----------------------------------------------------
 User (Gradio UI)
         ↓
 LangGraph Workflow
@@ -100,7 +100,7 @@ MySQL Database
 LangSmith (Tracing/Monitoring)
 
 Folder Structure
-###################
+----------------------------------------------------
 agentic_ai_nltosql/
 │── Dockerfile
 │── docker-compose.yml
@@ -113,8 +113,7 @@ agentic_ai_nltosql/
 │     ├── *_WORKING (backup files)
 
 Installation & Running
-#########################
-
+----------------------------------------------------
 1. Clone the repo
 git clone https://github.com/<your-username>/agentic_ai_nltosql.git
 cd agentic_ai_nltosql
@@ -156,7 +155,7 @@ Count total products in electronics category
 Show dashboard summary of orders grouped by user
 
 LangSmith Observability Screenshots
-##########################################
+----------------------------------------------------
 ✔ SQL Execution Tracing
 
 All MCP calls appear as sql_execution
@@ -182,8 +181,7 @@ Schema mismatches
 MySQL errors (1054, 1064, etc.)
 
 Key Components Explained
-##############################
-
+----------------------------------------------------
  1. langgraph_schema_graph.py
 
 Handles:
@@ -224,7 +222,7 @@ calls MCP execution
 merges response into readable JSON
 
 Security Considerations
-################################
+----------------------------------------------------
 
 No DROP/TRUNCATE allowed
 
@@ -236,7 +234,7 @@ Docker sandboxing
 
 
  Deployment Options
- ######################
+----------------------------------------------------
 
 Cloud VM (GCP/AWS/Azure)
 
@@ -249,7 +247,7 @@ Local development
 Supports HTTPS auto-generation via Let’s Encrypt.
 
 Roadmap
-############
+----------------------------------------------------
 
  Add RAG-based schema explanations
 
@@ -264,7 +262,7 @@ Roadmap
  Add multi-DB support (Postgres, Snowflake)
 
  Contributing
- ###############
+----------------------------------------------------
 
 Pull requests welcome!
 Feel free to open issues for suggestions or bugs.
